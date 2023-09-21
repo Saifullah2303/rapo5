@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Slabo 27px', serif;
+}
+
+.card-text:hover {
+  opacity: 0.9;
+  transition: ease-in-out 0.3s;
+}
+
+.container {
+  margin-top: 80px;
+  max-width: 1180px;
+}
+
+.card {
+  border: none;
+  border-radius: 100px !important;
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 20px;
+  max-height:auto;
+  width: 100%;
+  line-height: 16.5px;
+  vertical-align: top;
+  margin-left: 0px;
+  position: relative;
+}
+span{
+  font-family: Helvetica;
+  font-weight: 600;
+}
+.card-text {
+  font-size: 17px !important;
+  font-weight: 700;
+  font-family: Helvetica;
+}
+
+.card-body {
+  width: 100%;
+  padding: 0px !important;
+  padding-top: 5px !important;
+}
+
+.card-img-top {
+  border-radius: 0px;
+}
+
+.card-img-top:hover {
+  filter: brightness(80%);
+  transition: ease-in-out 0.3s;
+}
+
+.more-items {
+  margin-left: 30%;
+  font-family: cursive;
+  opacity: 0.7;
+}
+
+.view-details {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(180, 6, 0);
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  display: none;
+  cursor: pointer;
+  font-family: aharoni;
+}
+
+.subscribe-btn{
+  font-family: cursive !important;
+  background-color: rgb(180, 6, 0) !important;
+}
+.view-details:hover {
+  color: white;
+  transition: 0.3s ease-in-out;
+  background-color: black;
+}
+
+.card:hover .view-details {
+  display: block;
+}
+
+.Take-The-Quiz {
+  background-color: rgb(180, 6, 0);
+  padding: 10px;
+  border: 0px;
+}
+
+.Take-The-Quiz a {
+  text-decoration: none;
+  font-size: larger;
+  color: black;
+}
+.explore-more{
+background-color: rgb(180, 6, 0) !important;
+font-family: Aharoni;
+border: 0px;
+color: black;
+}
+.explore-more:hover{
+background-color: black !important;
+}
+.Take-The-Quiz:hover {
+  background-color: rgba(159, 156, 156, 0.63);
+}
+.display-1{
+  color: rgb(180, 6, 0) !important;
+}
+.text-primary{
+  color: rgb(180, 6, 0) !important;
+}
+.fyp {
+  margin-top: 15%;
+}
+
+.Slider {
+  height: 80% !important;
+  max-width: 1155px !important;
+  border-radius: 50px !important;
+}
+
+.carouselExampleindicators {
+  background-color:rgb(180, 6, 0);
+}
+
+
+@media (max-width:1400px) {
+  .view-details {
+    padding: 5px 10px;
+    top: 60% !important;
+    left: 50%;
+    font-size: 12px;
+  }
+
+}
+
+@media(max-width:1200px) {
+  .fyp {
+    margin-top: 3%;
+  }
+}
+
+@media(max-width:767px) {
+  .img {
+    margin-top: 2%;
+  }
+
+  .Take-The-Quiz {
+    margin-bottom: 3%;
+  }
+}
+
+
+
+
+
+@media (max-width:770px) {
+  .more-items {
+    font-size: 12px !important;
+
+
+  }
+
+}
+
+@media (max-width:380px) {
+  .more-items {
+    font-size: 10px !important;
+    margin-left: 5%;
+
+  }
+}
+
+@media (min-width:1401) {
+  .view-details{
+    top: 40% !important;
+  }
+}
+.heading {
+  font-size: 50px;
+  margin-bottom: 20px;
+font-family: Aharoni;
+}
+
+
+.find-your-plant {
+  width: 100%;
+  height: 100%;
+
+}
+
